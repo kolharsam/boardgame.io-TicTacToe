@@ -1,13 +1,13 @@
 # TicTacToe game using Boardgame.io
 
-Boardgame.io [here](https://github.com/google/boardgame.io) is the reason why this repository now exists. Very much excited on building this classic game with some twists and additional features. I'm really excited about this, like you hadn't realised by now! :P
+[Boardgame.io ](https://github.com/google/boardgame.io) is the reason why this repository now exists. Very much excited on building this classic game with some twists and additional features. I'm really excited about this, like you hadn't realised by now! :P
 
 ### Game Modes
 
 * Human v Human
 * Human v AI (Courtesy of Boardgame.io)
 
-## Plan of Action
+## Rough: Plan of Action
 
 - [x] Update README
 - [ ] Connect with Firebase
