@@ -1,0 +1,30 @@
+#board {
+  border-collapse: collapse;
+  font-family: monospace;
+}
+
+#winner {
+  margin-top: 25px;
+  width: 168px;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: #000;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 3px solid rgb(85, 83, 83);
+}
+
+td.active {
+  cursor: pointer;
+  background: #aeff95;
+}
+
+td.active:hover {
+  background: #54b8b8;
+}
