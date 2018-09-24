@@ -6,12 +6,11 @@ import TicTacToeBoard from "./TicTacToeBoard";
 import * as firebase from 'firebase'
 
 var config = {
-  apiKey: "AIzaSyDAm_9Id1tHIFhfsRAF--SGBQLLcGd42bk",
   authDomain: "newtictactoegame.firebaseapp.com",
   databaseURL: "https://newtictactoegame.firebaseio.com",
   projectId: "newtictactoegame",
   storageBucket: "newtictactoegame.appspot.com",
-  messagingSenderId: "373952791884"
+  //apikey and sender id to be added before running.
 };
 
 firebase.initializeApp(config);
