@@ -1,0 +1,15 @@
+image: node:6
+
+pipelines:
+  branches:
+    master:
+      - step:
+          script:
+            - yarn
+            - npm run build
+            - npm run surge
+  default:
+    - step:
+        script:
+          - yarn
+          - npm run build

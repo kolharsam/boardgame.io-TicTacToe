@@ -16,7 +16,7 @@ function IsVictory(cells) {
     const symbol = cells[pos[0]];
     let winner = symbol;
     for (let i of pos) {
-      if (cells[i] != symbol) {
+      if (cells[i] !== symbol) {
         winner = null;
         break;
       }
@@ -53,7 +53,7 @@ const TicTacToe = Game({
       if (IsVictory(G.cells)) {
         return { winner: ctx.currentPlayer };
       }
-      if (G.cells.filter(c => c === null).length == 0) {
+      if (G.cells.filter(c => c === null).length === 0) {
         return { draw: true };
       }
     }

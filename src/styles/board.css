@@ -1,4 +1,5 @@
 #board {
+  margin-top: 30px;
   border-collapse: collapse;
   font-family: monospace;
 }

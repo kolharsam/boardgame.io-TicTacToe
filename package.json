@@ -1,21 +1,38 @@
 {
-  "name": "tic-tac-toe-trial",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.js",
-  "dependencies": {
-    "boardgame.io": "0.25.5",
-    "prop-types": "15.6.2",
-    "react": "16.4.2",
-    "react-dom": "16.4.2",
-    "react-scripts": "1.1.4"
-  },
-  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "surge": "bash surge_login.sh && surge --project ./build/ --domain atlaskit-starter.surge.sh"
+  },
+  "dependencies": {
+    "@atlaskit/avatar": "^14.0.9",
+    "@atlaskit/button": "^9.0.7",
+    "@atlaskit/css-reset": "^3.0.1",
+    "@atlaskit/dropdown-menu": "^6.1.10",
+    "@atlaskit/flag": "^9.0.7",
+    "@atlaskit/icon": "^13.4.0",
+    "@atlaskit/inline-edit": "^7.0.7",
+    "@atlaskit/modal-dialog": "^6.0.10",
+    "@atlaskit/navigation": "^33.1.7",
+    "@atlaskit/page": "^8.0.4",
+    "@atlaskit/theme": "^6.0.1",
+    "prop-types": "^15.6.0",
+    "styled-components": "^3.2.6",
+    "react": "^16.4.2",
+    "react-dom": "^16.2.4",
+    "react-router": "^3.2.0",
+    "react-router-dom": "^4.2.2",
+    "boardgame.io": "0.25.5",
+    "firebase": "^5.5.1",
+    "prop-types": "^15.6.2",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {
+    "react-scripts": "^1.1.1",
+    "surge": "^0.20.1"
   }
 }

@@ -10,7 +10,8 @@
 ## Rough: Plan of Action
 
 - [x] Update README
-- [ ] Connect with Firebase
+- [x] Connect with Firebase
+- [x] Added Starter-UI
 - [ ] Create Login Page
 - [ ] Enable Login through Github, Google *Only*
 - [ ] Enable Tic Tac Toe above mentioned Game Modes.
@@ -21,7 +22,9 @@
 * [React](https://reactjs.org/)
 * [Yarn](https://yarnpkg.com/en/)
 * [Create-React-App](https://github.com/facebook/create-react-app)
-* [Material-Ui](https://material-ui.com/)
+* [Atlassian UI Components](http://go.atlassian.com/ak)
+
+ This application is bootstrapped using <a href="https://github.com/facebook/create-react-app">create-react-app</a> and <a href="https://atlaskit.atlassian.com/">Atlaskit</a>.
 
 Dependencies for this project can be found in [package.json](https://github.com/Kolhar730/boardgame.io-TicTacToe/blob/master/package.json) under the dependencies section. 
 

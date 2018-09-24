@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./board.css";
+import "../styles/board.css";
 
 class TicTacToeBoard extends React.Component {
   static propTypes = {
@@ -55,7 +55,7 @@ class TicTacToeBoard extends React.Component {
 
     return (
       <div>
-        <table id="board">
+        <table id="board" style={{width: '250px', height: '250px'}}>
           <tbody>{tbody}</tbody>
         </table>
         {winner}
